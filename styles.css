@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a994f1;
+    box-sizing: border-box;
+    font-family: "Chau Philomene One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    padding-right: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 5px solid white;
+    box-shadow: 0 0 20px white;
+}
+nav a{
+    width: 140px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #f5168d97;
+    transition: 1s;
+}
+nav button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+}
+nav button:hover{
+    background-color: #460326;
+    transition: 1s;
+}
+.container{
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zODAtMDcta255Z2FwNmouanBn.jpg);
+    margin-top: 70px;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 200px;
+}
+.container h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 100px;
+    text-shadow: 0 0 30px white;
+}
+
+.container h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 100px;
+}
+.container button{
+    width: 200px;
+    padding: 20px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #dfdbdb;
+    color: #f5168d;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.container button:hover{
+    background-color: #f5168d;
+    box-shadow: 0 0 20px white;
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;padding-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+    border-top: 5px solid white;
+    padding-bottom: 50px;
+}
+
+.service{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    display: block;
+    margin-top: 100px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+.content{
+    width: 90%;
+    background-color: #030e37a8;
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.image:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.text{
+    margin-top: 100px;
+    font-weight: bold;
+    color: black;
+}
+.content button{
+        width: 200px;
+        border: 3px solid black;
+        padding: 20px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #0b0207;
+        color: #bc0e6b;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-top: 30px;
+}
+    .content button:hover{
+        background-color: #423f42;
+        box-shadow: 0 0 20px white;
+        color: #ffffff;
+        transition: 1s;
+    }
+
+    .form-container{
+        background: url(https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721001600&semt=ais_user);
+        margin-top: 70px;
+        background-size: cover;
+        padding-bottom: 300px;
+        padding-top: 200px;
+    }
+    .form{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        background-color: #ffffff6f;
+        border-radius: 10px;
+        border: 4px solid white;
+    }
+
+    input[type="text"],
+    input[type="email"]{
+        width: 100%;
+        height: 40px;
+        color: #423f42;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    textarea{
+        width: 100%;
+        height: 120px;
+        color: #423f42;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .form button{
+        width: 200px;
+        border: 3px solid black;
+        padding: 20px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #132ac2;
+        color: #f5eff2;
+        text-align: center;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
+}
+    .form button:hover{
+        background-color: #423f42;
+        box-shadow: 0 0 20px white;
+        color: #ffffff;
+        transition: 1s;
+    }
+    .form h1, h2{
+        margin-top: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: #423f42;
+    }
+
+    .Icons{
+        display: flex;
+        justify-content: center;
+        
+        }
+        .Icons a{
+        list-style: none;
+        padding: 10px;
+        background-color: rgb(253, 248, 249);
+        margin: 10px;
+        border-radius: 50px;
+        }
+        .Icons a {
+        color: black;
+        opacity: 0.9;
+        
+        }
+        .Icons a:hover{
+        background-color: rgb(77, 4, 72);
+        transition: 0.5s;
+        }
+        
